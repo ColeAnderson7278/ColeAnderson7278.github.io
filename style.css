@@ -11,6 +11,10 @@ main {
     }
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
 }
