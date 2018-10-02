@@ -1,3 +1,7 @@
+body {
+    background-color: honeydew;
+}
+
 main {
     display: grid;
     margin: 20px;
