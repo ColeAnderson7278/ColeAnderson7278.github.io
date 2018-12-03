@@ -1,75 +1,126 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Biography</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+            integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="bootswatch.css"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="style.css"
+        />
+    </head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Biography</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="bootswatch.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <h3 class="navbar-brand">
+                <i class="far fa-address-card"></i> Cole Anderson
+            </h3>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <h3 class="navbar-brand">
-            <i class="far fa-address-card"></i> Cole Anderson</h3>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <h5>
-                <a class="nav-link text-light" href="index.html">Biography</a>
-            </h5>
-            <h5>
-                <a class="nav-link text-light" href="projects.html">Projects</a>
-            </h5>
-            <h5>
-                <a class="nav-link text-light" href="resume.html">Resume</a>
-            </h5>
-            <h5>
-                <a class="nav-link text-light" href="contact.html">Contact Info</a>
-            </h5>
-            <h5>
-                <a class="nav-link text-light" href="personal_inquiries.html">Personal Inquiries</a>
-            </h5>
-        </div>
-    </nav>
-    <div class="container col-lg-6">
-        <div class="card mt-3 mb-3">
-            <div class="card-body">
-                <h4 class="card-title text-light">About Me:</h4>
-                <h5 class="card-text text-info">My name is Cole Anderson. I graduated as Salutatorian from Charleston High School in 2018 and then went on
-                    to become a student of the Base Camp Coding Academy's class of 2019. I started out with no previous knowledge
-                    of computer languages; however, over these these few months I've definitely gained a serious appreciation
-                    for this field and for the code that I write. I now can say I enjoy my work, and I'm very excited for
-                    what the future holds.</h5>
-            </div>
-        </div>
-        <div class="card mb-3">
-            <div class="card-body">
-                <h4 class="card-title text-light">Languages I've Learned:</h4>
-                <h5 class="card-text text-info">
-                    <ul>
-                        <li>Python</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <h5>
+                    <a class="nav-link text-light" href="index.html"
+                        >Biography</a
+                    >
+                </h5>
+                <h5>
+                    <a class="nav-link text-light" href="projects.html"
+                        >Projects</a
+                    >
+                </h5>
+                <h5>
+                    <a class="nav-link text-light" href="resume.html">Resume</a>
+                </h5>
+                <h5>
+                    <a class="nav-link text-light" href="contact.html"
+                        >Contact Info</a
+                    >
+                </h5>
+                <h5>
+                    <a
+                        class="nav-link text-light"
+                        href="personal_inquiries.html"
+                        >Personal Inquiries</a
+                    >
                 </h5>
             </div>
+        </nav>
+        <div class="container col-lg-6">
+            <div class="card mt-3 mb-3">
+                <img
+                    id="portfolio_picture"
+                    src="images/portfolio_picture.jpg"
+                />
+                <div class="card-body">
+                    <h4 class="card-title text-light">About Me:</h4>
+                    <h5 class="card-text text-info">
+                        My name is Cole Anderson. I graduated as Salutatorian
+                        from Charleston High School in 2018 and then went on to
+                        become a student of the Base Camp Coding Academy's class
+                        of 2019. I started out with no previous knowledge of
+                        computer languages; however, over these these few months
+                        I've definitely gained a serious appreciation for this
+                        field and for the code that I write. I now can say I
+                        enjoy my work, and I'm very excited for what the future
+                        holds.
+                    </h5>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h4 class="card-title text-light">
+                        Languages I've Learned:
+                    </h4>
+                    <h5 class="card-text text-info">
+                        <ul>
+                            <li>Python</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </h5>
+                </div>
+            </div>
         </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-</body>
-
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>

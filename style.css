@@ -9,6 +9,15 @@ main {
         grid-template-columns: 1fr 1fr;
         margin: 20px;
     }
+    #portfolio_picture {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #portfolio_picture {
+        width: 250px;
+    }
 }
 
 a:hover {
@@ -28,4 +37,15 @@ ul li::before {
 .card {
     background-color: #1e434a;
     border-color: #268bd2;
+}
+
+#portfolio_picture {
+    border-style: solid;
+    border-color: #268bd2;
+    border-width: 1px;
+    border-radius: 5%;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
