@@ -39,6 +39,14 @@ ul li::before {
     border-color: #268bd2;
 }
 
+.project_title {
+    padding-bottom: 10px;
+}
+
+.description_container {
+    padding-top: 15px;
+}
+
 #portfolio_picture {
     border-style: solid;
     border-color: #268bd2;
