@@ -1,3 +1,21 @@
+div.container,
+main {
+    position: relative;
+    -webkit-animation-name: transition;
+    -webkit-animation-duration: 1s;
+    animation-name: transition;
+    animation-duration: 0.75s;
+}
+
+@keyframes transition {
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 main {
     display: grid;
     margin: 20px;
