@@ -10,7 +10,7 @@ main {
         margin: 20px;
     }
     #portfolio_picture {
-        width: 450px;
+        width: 350px;
     }
 }
 
@@ -37,6 +37,9 @@ ul li::before {
 .card {
     background-color: #1e434a;
     border-color: #268bd2;
+}
+
+.card:hover {
 }
 
 .project_title {
