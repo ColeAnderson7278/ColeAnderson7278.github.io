@@ -23,10 +23,6 @@ main {
 }
 
 @media screen and (min-width: 750px) {
-    main {
-        grid-template-columns: 1fr 1fr;
-        margin: 20px;
-    }
     #portfolio_picture {
         width: 350px;
     }
@@ -55,9 +51,7 @@ ul li::before {
 .card {
     background-color: #1e434a;
     border-color: #268bd2;
-}
-
-.card:hover {
+    margin-top: 15px;
 }
 
 .project_title {
