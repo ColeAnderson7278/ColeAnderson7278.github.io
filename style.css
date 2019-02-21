@@ -1,16 +1,15 @@
-div.container,
-main {
+div.container {
     position: relative;
     -webkit-animation-name: transition;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 0.5s;
     animation-name: transition;
-    animation-duration: 0.6s;
+    animation-duration: 0.75s;
 }
 
 @keyframes transition {
     0% {
-        opacity: 0.5;
-        left: -300px;
+        opacity: 0;
+        left: -100px;
     }
     100% {
         opacity: 1;
