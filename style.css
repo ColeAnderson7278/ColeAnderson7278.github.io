@@ -16,12 +16,6 @@ main {
     }
 }
 
-main {
-    display: grid;
-    margin: 20px;
-    grid-gap: 20px;
-}
-
 @media screen and (min-width: 750px) {
     #portfolio_picture {
         width: 350px;
